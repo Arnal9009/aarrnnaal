@@ -1,0 +1,92 @@
+.header__container {
+  padding-top: 32px;
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h3 {
+  color: #FFF500;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.nav h3 span {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.nav__basket h3 {
+  width: 60px;
+  text-align: center;
+}
+
+.nav__basket {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav__basket img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.basket-radius {
+  width: 18px;
+  height: 18px;
+  background: #FFF500;
+  border-radius: 100%;
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #353535;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header__inp {
+  background: #FFFFFF;
+  width: 405px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.header__inp img{
+  position: absolute;
+  top: 55px;
+  left: 900px;
+}
+
+.header__inp input {
+  width: 90%;
+  height: 100%;
+  background: none;
+  padding-left: 15px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.nav__burger {
+  display: flex;
+}
+
+.nav__burger img {
+  width: 40px;
+}
+
+.nav__burger img:first-child {
+  width: 50px;
+  margin-right: 56px;
+}

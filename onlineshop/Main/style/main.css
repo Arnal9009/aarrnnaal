@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+  
+body {
+  background: #353535
+}
+  
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 32px;
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h3 {
+  color: #FFF500;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.nav h3 span {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 600;
+}
+.header__inp {
+  background: #FFFFFF;
+  width: 405px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.header__inp img{
+  position: absolute;
+  top: 55px;
+  left: 880px;
+}
+
+.header__inp input {
+  width: 90%;
+  height: 100%;
+  background: none;
+  padding-left: 15px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.nav__basket img:first-child {
+  margin-right: 56px;
+  cursor: pointer;
+}
+
+.card {
+  background: #565656;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  margin-left: 66px;
+  margin-right: 66px;
+}
+
+.card img{
+  width: 500px;
+  height: 200px;
+}
+
+.card_name {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_name h3 {
+  display: flex;
+  color: #FFF500;
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 47px;
+  align-items: center;
+}
+
+.card_name h3 span{
+  color: #353535;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card_name h3 span:nth-child(2) {
+  color: #FFFFFF;
+}
+
+.card_footer {
+  margin-top: 20px;
+}
+
+.card_footer span{
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-left: 46px;
+  margin-right: 35px;
+}
+
+.card_footer button {
+  width: 234px;
+  height: 47px;
+  background: #353535;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #FFFFFF;
+  border: none; 
+  cursor: pointer;
+  transition: .8s;
+}
+
+.card_footer button:hover {
+  background: #FFF500;
+  color: #353535;
+  font-weight: bold;
+}
+
+.footer {
+  background: #565656;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 500;
+  /* display: none; */
+}
+
+.footer ul:first-child {
+  margin-top: 12px;
+  margin-right: 135px;
+  margin-left: 164px;
+}
+
+.footer ul {
+  margin-top: 12px;
+  margin-right: 135px;
+}
+
+.footer ul li:first-child {
+  margin-bottom: 5px;
+}
+
+.footer li {
+  cursor: pointer;
+}
+
+.corusel {
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.card_1 {
+  width: 320px;
+  background: #565656;
+  border-radius: 10px;
+  height: 220px;
+}
+
+.card_name1 h3{
+  font-size: 24px;
+  color: #FFF500;
+  margin-left: 32px;
+}
+
+.card_name1 h3 span:first-child{
+  font-size: 24px;
+  color: #353535;
+}
+
+.card_name1 h3 span{
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.card_footer1 {
+  margin-top: 16px;
+}
+
+.card_footer1 button {
+  background: #353535;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  width: 150px;
+  height: 26px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: .8s;
+}
+
+.card_footer1 button:hover {
+  background: #FFF500;
+  color: #353535;
+  font-weight: bold;
+}
+
+.card_footer1 span{
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 32px;
+}
+
+.corusel {
+  margin-top: 57px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hit {
+  font-size: 64px;
+  color: #FFF500;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.img3 {
+  margin-left: 40px;
+}
+
+.left_btn {
+  position: absolute;
+  left: 40px;
+  top: 500px;
+  cursor: pointer;
+}
+
+.right_btn {
+  position: absolute;
+  right: 40px;
+  top: 500px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 300px;
+  height: 1024px;
+  background: #565656;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.452);
+  display: none;
+}
+
+.menu.active {
+  display: block;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 140px;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  transition: .8s;
+  width: 214px;
+  height: 56px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu li img {
+  margin-left: 12px;
+}
+
+.menu span {
+  color: #FFFFFF;
+  font-size: 34px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.menu_back {
+  margin-top: 56px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background: #353535;
+}
+
+.menu li span:hover {
+  color: #FFF500;
+}
+

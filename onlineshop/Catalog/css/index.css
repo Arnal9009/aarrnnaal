@@ -1,0 +1,32 @@
+:root {
+  /* Fonts */
+  --main_fonts-roboto: 'Roboto', sans-serif;
+    
+  /* Background */
+  --main-body-bg: #353535;
+  --main-catalog-bg: #565656;
+  
+  /* Color-Text */
+  --color-main-text:  #FFFFFF;
+  --color-yellow-text:  #FFF500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--main_fonts-roboto)
+}
+
+body {
+  background: #353535
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}

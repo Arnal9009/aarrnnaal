@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Todo</title>
+  <link rel="shortcut icon" href="./images/done_96235.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <h2><span>JavaScript</span> Todo</h2>
+        <h4 id="pending"></h4>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+
+  <div class="container">
+    <main class="main">
+      <div class="main__add--task">
+        <input id="inp" class="main__add--task__inp" type="text" placeholder="Enter your task...">
+        <button id="btn" class="main__add--task__btn">Add Task</button>
+      </div>
+
+      <div id="modal" class="modal">
+        <div class="modal__item">
+          <h4>Successfully added</h4>
+          <img width="30" src="./css/images/done.svg" alt="Successfully">
+        </div>
+        <div class="modal__footer"></div>
+      </div>
+
+      <ul id="todo__list" class="todo__list">
+      </ul>
+      <div class="todo__footer">
+        <p id="footerPanding"></p>
+        <button id="deleteAllBtn">Clear All</button>
+      </div>
+    </main>
+  </div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
